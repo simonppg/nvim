@@ -18,4 +18,7 @@ Plug 'mhinz/vim-startify'
 
 " Shows menu with key mappings
 Plug 'liuchengxu/vim-which-key', { 'on': ['WhichKey', 'WhichKey!']  }
+
+" Stable version of coc
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
