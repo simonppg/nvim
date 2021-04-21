@@ -9,5 +9,10 @@ endif
 call plug#begin()
 " Better Syntax Support
 Plug 'sheerun/vim-polyglot'
+
+" Themes
+Plug 'NLKNguyen/papercolor-theme'
+
+" Welcome screen
 Plug 'mhinz/vim-startify'
 call plug#end()
