@@ -7,5 +7,7 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 call plug#begin()
+" Better Syntax Support
+Plug 'sheerun/vim-polyglot'
 Plug 'mhinz/vim-startify'
 call plug#end()
