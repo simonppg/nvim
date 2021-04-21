@@ -21,4 +21,7 @@ Plug 'liuchengxu/vim-which-key', { 'on': ['WhichKey', 'WhichKey!']  }
 
 " Stable version of coc
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+" Auto pairs for '(' '[' '{'
+Plug 'jiangmiao/auto-pairs'
 call plug#end()
