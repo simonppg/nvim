@@ -2,7 +2,6 @@ let g:mapleader = "\<Space>"
 let g:maplocalleader = ','
 
 syntax enable                           " Enables syntax highlighing
-set hidden                              " Required to keep multiple buffers open
 set splitright                          " Vertial split will atomatically be to the right
 set nowrap                              " Display long lines as just one line
 set encoding=utf-8                      " The encoding displayed
@@ -25,8 +24,21 @@ set timeoutlen=500                      " By default timeoutlen is 1000 ms
 set formatoptions-=cro                  " Stop newline continuation of comments
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 
-" coc.nvim needs this configs
+" --- coc.nvim needs this configs ---
+" TextEdit might fail if hidden is not set.
+set hidden                              " Required to keep multiple buffers open
+" Some servers have issues with backup files.
 set nobackup
 set nowritebackup
+" Don't pass messages to |ins-completion-menu|.
+set shortmess+=c
+" Always show the signcolumn, otherwise it would shift the text each time
+" diagnostics appear/become resolved.
+if has("patch-8.1.1564")
+  " Recently vim can merge signcolumn and number column into one
+  set signcolumn=number
+else
+  set signcolumn=yes
+endif
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
