@@ -7,6 +7,7 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 call plug#begin()
+
 " Better Syntax Support
 Plug 'sheerun/vim-polyglot'
 
@@ -24,4 +25,10 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Auto pairs for '(' '[' '{'
 Plug 'jiangmiao/auto-pairs'
+
+" fzf
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'airblade/vim-rooter'
+
 call plug#end()

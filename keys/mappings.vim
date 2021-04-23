@@ -164,3 +164,10 @@ nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
+
+" fzf
+map <C-f> :Files<CR>
+map <leader>b :Buffers<CR>
+nnoremap <leader>g :Rg<CR>
+nnoremap <leader>t :Tags<CR>
+nnoremap <leader>m :Marks<CR>
