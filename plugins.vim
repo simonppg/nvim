@@ -34,4 +34,10 @@ Plug 'airblade/vim-rooter'
 " Floating terminal
 Plug 'voldikss/vim-floaterm'
 
+" Git integration
+Plug 'mhinz/vim-signify'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rhubarb'
+Plug 'junegunn/gv.vim'
+
 call plug#end()

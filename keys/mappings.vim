@@ -169,7 +169,7 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 " fzf
 map <C-f> :Files<CR>
 map <leader>b :Buffers<CR>
-nnoremap <leader>g :Rg<CR>
+nnoremap <leader>rg :Rg<CR>
 nnoremap <leader>ta :Tags<CR>
 nnoremap <leader>m :Marks<CR>
 
@@ -190,3 +190,11 @@ let g:which_key_map.t = {
       \ 'y' : [':FloatermNew ytop'                              , 'ytop'],
       \ 's' : [':FloatermNew ncdu'                              , 'ncdu'],
       \ }
+
+" vim-signify Git marks - Jump though hunks
+nmap <leader>gj <plug>(signify-next-hunk)
+nmap <leader>gk <plug>(signify-prev-hunk)
+" This doesn't work correctly
+" nmap <leader>gJ 9999<leader>gJ
+nmap <leader>gK 9999<leader>gk
+
