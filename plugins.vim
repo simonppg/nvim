@@ -18,7 +18,7 @@ Plug 'NLKNguyen/papercolor-theme'
 Plug 'mhinz/vim-startify'
 
 " Shows menu with key mappings
-Plug 'liuchengxu/vim-which-key', { 'on': ['WhichKey', 'WhichKey!']  }
+Plug 'liuchengxu/vim-which-key'
 
 " Stable version of coc
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -30,5 +30,8 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
+
+" Floating terminal
+Plug 'voldikss/vim-floaterm'
 
 call plug#end()
