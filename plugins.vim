@@ -8,6 +8,9 @@ endif
 
 call plug#begin()
 
+" Editorconfig
+Plug 'editorconfig/editorconfig-vim'
+
 " Better Syntax Support
 Plug 'sheerun/vim-polyglot'
 
