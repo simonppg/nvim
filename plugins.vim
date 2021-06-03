@@ -23,6 +23,9 @@ Plug 'mhinz/vim-startify'
 " Shows menu with key mappings
 Plug 'liuchengxu/vim-which-key'
 
+" file-type sensible comments
+Plug 'tomtom/tcomment_vim'
+
 " Stable version of coc
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
