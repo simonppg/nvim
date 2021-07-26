@@ -10,5 +10,8 @@
        \'coc-vimlsp',
        \'coc-explorer',
        \'coc-snippets',
-       \'coc-sh']
+       \'coc-sh',
+       \'coc-tailwindcss',
+       \'coc-java',
+       \'coc-groovy']
 
