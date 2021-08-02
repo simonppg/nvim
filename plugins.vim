@@ -46,4 +46,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 Plug 'junegunn/gv.vim'
 
+" vimspector graphical debbugger
+Plug 'puremourning/vimspector'
+
 call plug#end()

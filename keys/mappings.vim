@@ -176,6 +176,7 @@ nnoremap <leader>m :Marks<CR>
 " WhichKey mappings
 let g:which_key_map = {}
 
+" FloatermNew mappings
 let g:which_key_map.t = {
       \ 'name' : '+terminal' ,
       \ ';' : [':FloatermNew --wintype=popup --height=6'        , 'terminal'],
@@ -190,6 +191,21 @@ let g:which_key_map.t = {
       \ 'y' : [':FloatermNew ytop'                              , 'ytop'],
       \ 's' : [':FloatermNew ncdu'                              , 'ncdu'],
       \ }
+
+" vimspector mappings
+" dd requires coc-java-debug
+let g:which_key_map.d = {
+    \ 'name': '+debug',
+    \ 'd': ['JavaStartDebug()'                    , 'Debug Java'],
+    \ 'b': {
+      \ 'name': '+breakpoint',
+      \ 'p': ['vimspector#ToggleBreakpoint()'     , 'toggle breakpoint'],
+      \},
+    \ 'l': ['vimspector#StepInto()'               , 'step into'],
+    \ 'j': ['vimspector#StepOver()'               , 'step over'],
+    \ 'k': ['vimspector#StepOut()'                , 'step out'],
+    \ ' ': ['vimspector#Continue()'               , 'continue'],
+    \}
 
 " vim-signify Git marks - Jump though hunks
 nmap <leader>gj <plug>(signify-next-hunk)

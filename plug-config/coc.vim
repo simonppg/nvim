@@ -13,5 +13,6 @@
        \'coc-sh',
        \'coc-tailwindcss',
        \'coc-java',
+       \'coc-java-debug',
        \'coc-groovy']
 
