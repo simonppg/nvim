@@ -14,5 +14,7 @@
        \'coc-tailwindcss',
        \'coc-java',
        \'coc-java-debug',
+       \'coc-xml',
+       \'coc-java-dependency',
        \'coc-groovy']
 

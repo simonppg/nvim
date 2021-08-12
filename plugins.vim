@@ -49,4 +49,7 @@ Plug 'junegunn/gv.vim'
 " vimspector graphical debbugger
 Plug 'puremourning/vimspector'
 
+" Dependency of coc-java-dependency
+Plug 'uzxmx/vim-widgets'
+
 call plug#end()
