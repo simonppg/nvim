@@ -1,4 +1,7 @@
 {
+  "java.format.enabled": true,
+  "java.format.comments.enabled": true,
+  "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
   "eslint.autoFixOnSave": true,
   "emmet.showAbbreviationSuggestions": true,
   "emmet.includeLanguages": {"vue-html": "html", "javascript": "javascriptreact"},
