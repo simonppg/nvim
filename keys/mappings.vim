@@ -176,6 +176,11 @@ nnoremap <leader>m :Marks<CR>
 " WhichKey mappings
 let g:which_key_map = {}
 
+let g:which_key_map.r = {
+      \ 'name': '+run',
+      \ 'm': [':make'                                            , 'make'],
+      \}
+
 " FloatermNew mappings
 let g:which_key_map.t = {
       \ 'name' : '+terminal' ,
