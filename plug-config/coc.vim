@@ -16,5 +16,6 @@
        \'coc-java-debug',
        \'coc-xml',
        \'coc-java-dependency',
+       \'coc-sql',
        \'coc-groovy']
 
