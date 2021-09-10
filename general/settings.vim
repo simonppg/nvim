@@ -23,6 +23,7 @@ set updatetime=300                      " Faster completition
 set timeoutlen=500                      " By default timeoutlen is 1000 ms
 set formatoptions-=cro                  " Stop newline continuation of comments
 set clipboard=unnamedplus               " Copy paste between vim and everything else
+set listchars=eol:¬,tab:>·,extends:>,precedes:<,space:·
 
 " --- coc.nvim needs this configs ---
 " TextEdit might fail if hidden is not set.
