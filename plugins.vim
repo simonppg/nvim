@@ -56,4 +56,8 @@ Plug 'puremourning/vimspector'
 " Dependency of coc-java-dependency
 Plug 'uzxmx/vim-widgets'
 
+" treesitter
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
+Plug 'nvim-treesitter/playground'
+
 call plug#end()
