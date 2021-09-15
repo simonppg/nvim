@@ -9,5 +9,6 @@
   "eslint.autoFixOnSave": true,
   "emmet.showAbbreviationSuggestions": true,
   "emmet.includeLanguages": {"vue-html": "html", "javascript": "javascriptreact"},
-  "typescript.preferences.importModuleSpecifier": "relative"
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/12.0.1/clangd_12.0.1/bin/clangd"
 }
