@@ -8,6 +8,9 @@ endif
 
 call plug#begin()
 
+" View and search LSP symbols, tags in Vim/NeoVim.
+Plug 'liuchengxu/vista.vim'
+
 " Editorconfig
 " Plug 'editorconfig/editorconfig-vim'
 Plug 'sgur/vim-editorconfig'
