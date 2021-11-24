@@ -63,4 +63,15 @@ Plug 'nvim-treesitter/playground'
 " GLSL highlighting
 Plug 'tikhomirov/vim-glsl'
 
+" Lua helper functions, needed for some plugins
+Plug 'nvim-lua/plenary.nvim'
+
+" Swith between files
+" Needs nvim-lue/plenary.nvim to work
+Plug 'ThePrimeagen/harpoon'
+
+" Fuzzy finder
+" Needs nvim-lue/plenary.nvim to work
+Plug 'nvim-telescope/telescope.nvim'
+
 call plug#end()
